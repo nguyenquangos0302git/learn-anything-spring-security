@@ -23,4 +23,9 @@ public class HelloController {
         return "jwtAuth";
     }
 
+    @GetMapping("/noauth")
+    public String noAuth() {
+        return "no auth";
+    }
+
 }
